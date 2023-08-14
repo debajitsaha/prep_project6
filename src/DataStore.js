@@ -8,7 +8,7 @@ function DataStore(props){
             id:'1',
             image:'https://stat4.bollywoodhungama.in/wp-content/uploads/2023/01/Pathaan-01.jpeg',
             heading:'Pathaan',
-            description:'Bollywood',
+            description:'Pathaan (pronounced [pəʈʰaːn]) is a 2023 Indian Hindi-language action thriller film directed by Siddharth Anand and written by Shridhar Raghavan and Abbas Tyrewala, from a story by Anand. The fourth installment in the YRF Spy Universe, it stars Shah Rukh Khan in the titular role with Deepika Padukone, John Abraham, Dimple Kapadia, and Ashutosh Rana. In the film, Pathaan (Khan), an exiled RAW agent, works with ISI agent Rubina Mohsin (Padukone) to take down Jim (Abraham), a former RAW agent, who plans to attack India with a deadly virus.',
             cat:"Bollywoo"
         },
         
@@ -33,7 +33,7 @@ function DataStore(props){
     {
       id:'4',
       image:"https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Brahmastra_Teaser.jpeg/220px-Brahmastra_Teaser.jpeg",
-      heading:"Brahmāstra: Part One Shiva (pronounced [bɾəɦmastrə]) is a 2022 Indian Hindi-language fantasy action-adventure film[c] written and directed by Ayan Mukerji and produced by Karan Johar, Apoorva Mehta, Namit Malhotra, and Mukerji (in his debut production) –  ",
+      heading:"Brahmāstra",
       description:" In ancient India, a group of sages in the Himalayas collide with the energy Brahm-shakti, which produces many celestial weapons of great power called astras. The strongest among them, the Brahmāstra, has the capacity to destroy the world. ",
       cat:"Bollywood"
     },
@@ -47,7 +47,7 @@ function DataStore(props){
       {
         id:'6',
         image:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRI_Owr6ghUx2TRlF-if7hc9usc-59VppAk2HoY7nIyzPhBCpPj",
-        heading:"Bholaa Movie Review : Bholaa serves great action in this fast-paced thriller",
+        heading:"Bholaa ",
         description:"Bholaa (Ajay Devgn), who is released from prison after 10 years, is desperately waiting to meet his daughter for the first time. However, he finds himself in a precarious situation when IPS officer Diana Joseph (Tabu) leaves him with no choice but to help her in a high-pressure situation that involves the drug mafia, the common man and a truck-load of cops.",
         cat:"Bollywood"
 
