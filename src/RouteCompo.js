@@ -14,22 +14,25 @@ function RouteCompo() {
  
   return (
     <div>
+        {/* Heading */}
         <BrowserRouter >
         <div className='heading'>
               <span className='vartical'>The</span><span id='head'>Siren</span> 
         </div>
+        {/* Navbar */}
         <div className="parent">
             <NavLink to={'/'} className="navbar"> Home </NavLink>
             <NavLink to={'/bollywood'} className="navbar">Bollywood</NavLink>
             <NavLink to={'/hollywood'} className="navbar">Hollywood</NavLink>
             <NavLink to={'/tollywood'} className="navbar">Tollywood</NavLink>
-            <NavLink to={'/food'} className="navbar">Food</NavLink>
             <NavLink to={'/fitness'} className="navbar">Fitness</NavLink>
+            <NavLink to={'/food'} className="navbar">Food</NavLink>
             </div>
+            <hr/>
             <DataStore>
             <Routes>
                 <Route path={'/bollywood'} element={<Bollywood/>}></Route>
-                 <Route path='/' element={<Home/>}></Route>
+                <Route path='/' element={<Home/>}></Route>
                 <Route path='/tollywood' element={<Tollywood/>}></Route>
                 <Route path='/hollywood' element={<Hollywood/>}></Route>
                 <Route path='/food' element={<Food/>}></Route>

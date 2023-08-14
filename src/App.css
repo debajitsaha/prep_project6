@@ -2,12 +2,26 @@
 .parent{
   display: flex;
   justify-content: space-evenly;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+.fullimg{
+width: 65%;
+height: 370px;
+/* border: 2px solid black; */
+margin-left: 70px;
+}
+
+.main-container{
+  display: flex;
 }
 .navbar{
   text-decoration: none;
   font-size: large;
-  background-color: aqua;
+  font-weight: 10px;
+  /* background-color: aqua; */
+}
+.navbar:hover{
+  background-color:gray;
 }
 .vartical{
   writing-mode: vertical-lr;
@@ -21,39 +35,115 @@
 .heading{
   text-align: center;
 }
-img{
+.img{
   height: 30vh;
-  width: 30vh;
+  width: 25vh;
 }
 .parent1 {
   margin-bottom: 20px; /* Add margin between cards */
   display: inline-block;
   text-align: center;
 }
+#topimg{
+  height:120% ;
+  width: 120%;
+}
 .bolly{
   text-decoration: underline;
+  width: 100%;
+  font-size: 30px;
+  display: block;
+  margin-left: 100px;
+}
+.first_container{
+  width: 68%;
+display: block;
+margin-left: 40px;
+/* border: 2px solid blueviolet; */
 }
 
+.cardname{
+  margin-left: 50px;
+  /* border: 2px solid green; */
+}
+.topheading{
+  text-align: center;
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .card {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 10px;
-  height: auto;
-  width: calc(27% - 10px); /* Three cards in a row with some spacing */
-  margin: 40px;
+  height: 200px;
+  /* width: calc(27% - 10px); Three cards in a row with some spacing */
+  width: 68%;
+  margin: 20px;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  text-decoration:none;
+  overflow: hidden;
 }
+.title{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.second_container{
+ display: flex;
+ /* border: 2px solid black; */
+ width: 35%;
+ margin-right: 30px;
+ height: auto;
+}
+.card1{
+  padding: 10px;
+  height: 200px;
+  /* width: calc(27% - 10px); Three cards in a row with some spacing */
+  width: 100%;
+  margin-top: 40px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  /* text-align: center; */
+  display: flex;
+  text-decoration:none;
+  overflow: hidden;
+}
+.title1{
+  display: inline;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+/* mobile view */
 @media only screen and (min-width:300px) and (max-width:500px){
   .card {
   border: 1px solid #ccc;
   padding: 10px;
-  width: calc(100% - 70px);  /* Three cards in a row with some spacing */
+  /* width: calc(100% - 70px);  Three cards in a row with some spacing */
   margin: 35px;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
   text-align: center;
+ } 
+ .main-container{
+  display: block;
  }
+ .first_container{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+ }
+ .second_container{
+  width: 100%;
+  margin-right:0px ;
+  margin-left: 10px;
+ }
+
 }
