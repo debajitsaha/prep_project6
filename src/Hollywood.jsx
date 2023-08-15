@@ -25,7 +25,7 @@ return (
     </div>
     {/* first container */}
     <div className='first_container'>
-    <div className='bolly'><p>Bollywood</p></div>
+    <div className='bolly'><p>Hollywood</p></div>
     <div className='fullimg'>
     {ContextData.filter((item)=>item.id==="1").map((item,index)=>{
       console.log(item.id)

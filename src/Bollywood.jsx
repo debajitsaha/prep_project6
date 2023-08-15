@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import {Store} from './DataStore'
 import { Link } from "react-router-dom";
+import Footer from './Footer';
 
 function Bollywood() {
     
@@ -9,6 +10,7 @@ function Bollywood() {
     // const
 
   return (
+    <>
     <div className='main-container'>
       <div>
       <div className='add2'>
@@ -114,8 +116,10 @@ function Bollywood() {
     </div>
     
     </div>
-
+  
     </div>
+    <Footer/>
+    </>
   )
 }
 

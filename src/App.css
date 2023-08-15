@@ -58,7 +58,7 @@ margin-left: 70px;
 .first_container{
   width: 68%;
 display: block;
-margin-left: 40px;
+margin-left: 60px;
 margin-right: 10px;
 /* border: 2px solid blueviolet; */
 }
@@ -151,6 +151,28 @@ margin-right: 10px;
   height: 100vh;
   
 }
+.footer{
+  text-align: center;
+  margin-left:7em ;
+  margin-right: 160px;
+  height: 50vh;
+  width: 80vw;
+  background-color: rgb(66, 66, 66);
+
+}
+.footer1{
+  display:flex;
+  justify-content: space-evenly;
+}
+.footer2{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
 
 /* mobile view */
 @media only screen and (min-width:300px) and (max-width:500px){
