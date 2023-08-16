@@ -2,7 +2,7 @@ import React from 'react'
 import{NavLink, Route, BrowserRouter, Routes}from 'react-router-dom';
 import Home from './Home';
 import Bollywood from './Bollywood';
-import Tollywood from "./Tollywood"
+import Techonology from './Techonology';
 import Hollywood from './Hollywood';
 import Food from './Food';
 
@@ -24,16 +24,16 @@ function RouteCompo() {
             <NavLink to={'/'} className="navbar"> Home </NavLink>
             <NavLink to={'/bollywood'} className="navbar">Bollywood</NavLink>
             <NavLink to={'/hollywood'} className="navbar">Hollywood</NavLink>
-            <NavLink to={'/tollywood'} className="navbar">Tollywood</NavLink>
+            <NavLink to={'/technology'} className="navbar">Technology</NavLink>
             <NavLink to={'/fitness'} className="navbar">Fitness</NavLink>
             <NavLink to={'/food'} className="navbar">Food</NavLink>
             </div>
-            <hr/>
+            
             <DataStore>
             <Routes>
                 <Route path={'/bollywood'} element={<Bollywood/>}></Route>
                 <Route path='/' element={<Home/>}></Route>
-                <Route path='/tollywood' element={<Tollywood/>}></Route>
+                <Route path='/technology' element={<Techonology/>}></Route>
                 <Route path='/hollywood' element={<Hollywood/>}></Route>
                 <Route path='/food' element={<Food/>}></Route>
                 <Route path='/Fitness' element={<Fitness/>}></Route>

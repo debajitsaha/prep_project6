@@ -8,11 +8,12 @@ function Bollywood() {
     const [ContextData]=useContext(Store);
     // const Navi=useNavigate()
     // const
+    var count=0;
 
   return (
     <>
     <div className='main-container'>
-      <div>
+      <div className='add'>
       <div className='add2'>
       <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVuQYfSVn1DiKMG_SKoRuypuT87crjy3rKlg&usqp=CAU' alt='not found' width="100px"/>
       </div>
@@ -66,7 +67,7 @@ function Bollywood() {
     </div> 
     <div className='second_container'>
         <div>
-          <h1>Top Story</h1>
+          <h1>Top Posts</h1>
         {ContextData.filter((item)=>(item.cat==="Bollywood"&& item.id%3===0)).map((item,index)=>{
         console.log(item.id)
         return(
@@ -101,6 +102,9 @@ function Bollywood() {
             <div className='title1'>
             <h3 key={index} >{item.heading}</h3>
             <p>{item.description}</p></div>
+            <div className='count'>
+              {++count}
+            </div>
             
             </div><hr /></>
             // </div>
@@ -108,6 +112,19 @@ function Bollywood() {
         )
       })}
         </div>
+        <div className='addvatisement'>
+          <br/>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcT54a0dFgicFyZ3B-h1mRn7N4P2Ue7mUPBw&usqp=CAU' alt='not found' height="250px" width="400px"/>
+        </div>
+        <div className='addvatisement'>
+          <br/>
+          <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="750px" width="350px"/>
+        </div>
+        <div className='addvatisement'>
+          <br/>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400px" width="400px"/>
+        </div>
+        
     </div>
     
     <div className='addvatise1'>

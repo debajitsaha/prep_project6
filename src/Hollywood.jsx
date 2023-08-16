@@ -1,13 +1,15 @@
 import React, { useContext } from 'react'
 import {Store} from './DataStore'
 import { Link } from "react-router-dom";
+import Footer from './Footer';
 function Hollywood() {
-  
   const [ContextData]=useContext(Store);
   // const Navi=useNavigate()
   // const
+  var count=0;
 
 return (
+  <>
   <div className='main-container'>
     <div>
     <div className='add2'>
@@ -27,13 +29,13 @@ return (
     <div className='first_container'>
     <div className='bolly'><p>Hollywood</p></div>
     <div className='fullimg'>
-    {ContextData.filter((item)=>item.id==="1").map((item,index)=>{
+    {ContextData.filter((item)=>item.id==="21").map((item,index)=>{
       console.log(item.id)
       return(
          
           <div >
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg'/></Link>
+          <Link to={'/hollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg1'/></Link>
           <p key={index} className='topheading'>{item.heading}</p>
           </div>
         
@@ -42,13 +44,13 @@ return (
     })}
     </div>
     <div className='cardname'>
-    {ContextData.filter((item)=>item.cat==="Bollywood").map((item,index)=>{
+    {ContextData.filter((item)=>item.cat==="Hollywood").map((item,index)=>{
       console.log(item.id)
       return(
         <>
           <div className='card'>
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/hollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
           <div className='title'>
           <h3 key={index} >{item.heading}</h3>
           <p>{item.description}</p></div>
@@ -63,15 +65,15 @@ return (
   </div> 
   <div className='second_container'>
       <div>
-        <h1>Top Story</h1>
-      {ContextData.filter((item)=>(item.cat==="Bollywood"&& item.id%3===0)).map((item,index)=>{
+        <h1>Top Posts</h1>
+      {ContextData.filter((item)=>(item.cat==="Hollywood"&& item.id%3===0)).map((item,index)=>{
       console.log(item.id)
       return(
 
         <>
           <div className='card1'>
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/hollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
           <div className='title1'>
           <h3 key={index} >{item.heading}</h3>
           <p>{item.description}</p></div>
@@ -83,21 +85,24 @@ return (
     })}
       </div>
       <div>
-        <video src='https://cdn.taboola.com/libtrc/static/video/v1691676846/xt6q22rswbtj62zfsmqt.mp4' height="400px" width="400px"></video>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_StvZhI1tjlgApgjpbZhPEJ8kJupVGYSLQ&usqp=CAU' alt='not found' height="400px" width="400px"></img>
       </div>
       <div>
       <h1 className='mostpopular'>Most Popular</h1>
-      {ContextData.filter((item)=>(item.cat==="Bollywood"&& item.id%5===0)).map((item,index)=>{
+      {ContextData.filter((item)=>(item.cat==="Hollywood"&& item.id%5===0)).map((item,index)=>{
       console.log(item.id)
       return(
 
         <>
           <div className='card1'>
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/hollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
           <div className='title1'>
           <h3 key={index} >{item.heading}</h3>
           <p>{item.description}</p></div>
+          <div className='count'>
+            {++count}
+          </div>
           
           </div><hr /></>
           // </div>
@@ -105,6 +110,16 @@ return (
       )
     })}
       </div>
+      <div className='addvatisement'>
+        <br/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3UseH_Ko0-tXEjJ7kNH7tOge7BC23ZG1r6g&usqp=CAU' alt='not found' height="250px" width="400px"/>
+      </div>
+      <div className='addvatisement'>
+        <br/>
+        <img src='https://png.pngtree.com/png-clipart/20220429/original/pngtree-advertising-poster-for-cosmetic-product-for-catalog-png-image_7577529.png' alt='not found' height="750px" width="350px"/>
+      </div>
+      
+      
   </div>
   
   <div className='addvatise1'>
@@ -115,6 +130,8 @@ return (
   </div>
 
   </div>
+  <Footer/>
+  </>
 )
 }
 
