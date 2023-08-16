@@ -258,213 +258,213 @@ function DataStore(props){
     },
     {
         id:'36',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/open-ai-chatgpt.jpg?w=640",
+        heading:"OpenAI says AI tools can be effective in content moderation",
+        description:"ChatGPT creator OpenAI made a strong case for the use of AI in content moderation, saying it can unlock efficiencies at social media firms by speeding up the time it takes to handle some of the grueling tasks.Despite the hype around generative AI, companies such as Microsoft and Google-owner Alphabet are yet to monetize the technology in which they have been pumping billions of dollars in the hope that it will have a big impact across industries.",
+        cat:"Technology"
     },
     {
         id:'37',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/xiaomi-mix-fold3.jpg?w=640",
+        heading:"Xiaomi’s latest foldable is lighter and cheaper than Galaxy Z Fold5",
+        description:"Samsung Galaxy Z Fold5 is undoubtedly one of the best folding smartphones of 2023 and the Chinese contemporaries are catching up with the Korean tech giant, and the latest one to do so is the Xiaomi Mix Fold 3. The third iteration of Xiaomi’s foldable is thinner than Samsung’s offering. However, you won’t be able to buy one anytime soon.Samsung’s latest Z Fold5 has gotten a lot more thinner than its predecessor. However, it is still not as thin as the Xiaomi Mix Fold 3, which has a thickness of 10.3mm when folded and when unfolded, it just measures 5.6mm. The Mix Fold 3 weighs 259 grams, which makes it slightly heavier than Samsung’s offering",
+        cat:"Technology"
     },
     {
         id:'38',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/ai-1.jpg?w=640",
+        heading:"Moderate Democratic coalition creates AI working group",
+        description:"Moderate Democrats in the U.S. House of Representatives have formed a working group on artificial intelligence aimed at tackling the issue of what restrictions, if any, should be put on the technology.The New Democrat Coalition announced the formation of the group on Tuesday, saying it would work with the Biden administration, companies and other lawmakers to develop “sensible, bipartisan policies to address this emerging technology.”",
+        cat:"Technology"
     },
     {
         id:'39',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2022/08/OnePlus-10T-5G-gallery-1.jpg?w=630",
+        heading:"OnePlus 10T 5G: Check out the latest flagship phone from OnePlus",
+        description:"The OnePlus 10T 5G was launched at a company event in New York yesterday. Here's a closer look at the device. (Image credit: Nandagopal Rajan / Indian Express).The phone comes with 150W SuperVooc fast charging. The OnePlus 10T is powered by the Snapdragon 8 Gen 1, with improved thermal performance.  ",
+        cat:"Technology"
     },
     {
         id:'40',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/transcribeglass.jpg?w=640",
+        heading:"This smart AR wearable can convert any eyeglass into TranscribeGlass",
+        description:"The rapid progress in technology has significantly improved the accessibility of hearing aids. However, even with these advancements, a quality hearing aid from a reputable company could still cost upwards of $3000, making them inaccessible to many. In response to this, two Stanford students have developed an innovative and affordable solution called TranscribeGlass.The gadget can be attached to any eyeglass, transforming them into a compact smart glass with a display that projects subtitles in real-time using speech-to-text recognition technology",
+        cat:"Technology"
     },
     {
         id:'41',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/ole-electric.jpg?w=640",
+        heading:"India’s Ola Electric eyes higher sales with affordable e-scooters",
+        description:" Ola Electric, India’s largest maker of electric scooters, launched its most affordable rides on Tuesday, in an effort to woo more buyers as the price of e-scooters moves closer to gasoline models.The SoftBank Group-backed company also plans to launch four e-motorcycles by end-2024. The new e-scooter models, S1X and S1X+, will be priced at 99,999 rupees ($1,199.15) and 109,999 rupees, respectively, with the cheapest variant of S1X about 36% lower than Bangalore-based Ola’s most expensive e-scooter, the S1 Pro, which sells for 140,000 rupees.",
+        cat:"Technology"
     },
     {
         id:'42',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/chandrayaan-1.jpg?w=640",
+        heading:"Chandrayaan-3 reaches final orbit around moon, lander to separate on Thursday ",
+        description:"Chandrayaan-3 reached its final 153×163 km orbit around the moon on Wednesday, completing the series of manoeuvres to reduce the orbit and velocity of the spacecraft, the Indian Space Research Organisation (Isro) said. The lander-rover module will separate on Thursday from the propulsion module that carried it to the moon.“It’s time for preparations as the Propulsion Module and the Lander Module gear up for their separate journeys,” the space agency said. After separation, the lander-rover module will prepare for the powered descent to the lunar surface scheduled for August 23",
+        cat:"Technology"
     },
     {
         id:'43',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2022/10/N-3-1.jpg?w=630",
+        heading:"NASA and SpaceX’s historic Crew-5 launch to International Space Station",
+        description:"NewsPhotosTechnology GalleryPhotos: NASA and SpaceX's historic Crew-5 launch to International Space Station.A SpaceX rocket soared into orbit from Florida on Wednesday carrying the next long-term International Space Station crew, with a Russian cosmonaut, two Americans and a Japanese astronaut flying together in a demonstration of US-Russian teamwork in space despite Ukraine war tensions.",
+        cat:"Technology"
     },
     {
         id:'44',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:" https://images.indianexpress.com/2023/08/Brown-dwarf-20230816.jpg?w=640",
+        heading:"Failed star is a record-breaking Jupiter hotter than the Sun",
+        description:"Hot Jupiters are curious cosmic bodies. They are kind of like our Jupiter but they orbit very close to their stars, sometimes completing an entire orbit in just weeks or even hours, meaning that they have extremely hot surface temperatures. A new hot Jupiter discovered by astronomers has a surface temperature 2,000 degrees hotter than that of our Sun.In a study published in Nature Astronomy, scientists write on the discovery of a system that consists of two bodies located about 1,400 light-years away. This system offers an unprecedented opportunity to study hot Jupiter atmospheres in particular while also helping advance our understanding of planetary and stellar evolution, according to the Weizmann Institute of Science.",
+        cat:"Technology"
     },
     {
         id:'45',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2022/09/WhatsApp-Image-2022-09-03-at-15.11.07-1.jpeg?w=630",
+        heading:" Nokia 8210 4G, Nokia 2660 Flip: Check out the latest Nokia retro phones",
+        description:"Nokia 8210 is a throwback to the early days of Nokia, when it was all about solving the most basic of problems.It's 4G-enabled and comes with dual SIM slots.Available in three beautiful colors - red, green and black, the Nokia 8210 4G is sleek, simple and best-in-class with its many cutting-edge features.The phone is priced at Rs 3,999 and can be purchased via Amazon and Nokia online store along with offline retail stores across the country.Nokia's back with the Nokia 2660 Flip.You can get the 2660 Flip in three colour options: Blue, Red, and Black.",
+        cat:"Technology"
     },
     {
         id:'46',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/apple-macbook-face-id-featured.jpg?w=640",
+        heading:" Notch on iMac? Apple patent reveals plans for Face ID on MacBooks & desktops",
+        description:"First introduced on the MacBooks back in 2016, Touch ID has remained the staple form of authentication on those macOS-powered devices ever since. It’s convenient, it’s fast, and nothing beats the technology in terms of security. However, a new patent hints that Apple could be working on an alternative to the touch-powered authentication method.As reported by Apple Insider, the patent titled “Light Recognition Module for Determining a User of a Computing Device” describes how the camera on top of the display (now in a notch) could recognize the user’s face and take them to the home screen automatically. The patent says that “to prevent unauthorized users from accessing this sensitive data, these computing devices may incorporate systems and mechanisms for authenticating users.”",
+        cat:"Technology"
     },
     {
         id:'47',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/elon-musk-x-twitter.jpg?w=640",
+        heading:" TweetDeck, now XPro, has become a paid service",
+        description:"Elon Musk s social media platform, X, formerly known as Twitter, has recently imposed restrictions on its TweetDeck (XPro) social media management dashboard, limiting access to only paid Blue subscribers. Users who do not have a Blue subscription and attempt to access TweetDeck are now redirected to X’s Blue subscription page.TweetDeck is a widely utilised service within the media industry for account scheduling and management. This restriction effectively encourages users to subscribe to the company’s service to access TweetDeck. On July 3rd, the company officially announced the shift of TweetDeck to a premium service and granted a 30-day transition period.",
+        cat:"Technology"
     },
     {
         id:'48',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/e-cycle-review.jpg?w=640",
+        heading:"Virtus Motors Alpha M e-bike review: An Indian cycle for Indian roads",
+        description:"I have tried a couple of electric bikes over the past few years and while the convenience of an electric motor that assists your pedalling efforts is understandable, I have not really been a big fan of the concept and might as well buy a more comfortable electric scooter at a slightly higher cost. But clearly, my opinion is in the minority and this is why companies big and small are entering this segment.The Virtus Motors Alpha M is also vying for attention in the electric bicycle segment touting its made-in-India credentials and relatively affordable price tag. But is that enough in this segment and how will users compare it with let’s say a more popular brand like Hero? This was top of my mind when I started my review.",
+        cat:"Technology"
     },
     {
         id:'49',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/redmi-watch-3-active-review-featured.jpg?w=640",
+        heading:"Redmi Watch 3 Active review: A fine example for watch software design",
+        description:"Smartwatches have come a long way. Nowadays, you can hardly go wrong with any smartwatch above Rs 2,000. But some brands still do it better than others. One of them is Redmi, whose Watch 3 Active has been on my wrist for a week now. And I love it. It’s ridiculously easy to use, is packed with features, and has an interface that makes you wonder if you really need a full-fledged smartwatch. Here’s my review.Let’s start with the design. The Redmi Watch 3 Active has a solid metal frame that feels durable and premium. Its display is the kind that doesn’t sit flush into the frame – it pops out a little which gives it a more premium look. The watch comes in two colours – black and off-white – but you can also spice things up with an olive green strap for Rs 499 (that’s like a sixth of the watch’s price itself) if you’re feeling adventurous. I got the black one for review and I like its sleek and minimalist look",
+        cat:"Technology"
     },
     {
         id:'50',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.indianexpress.com/2023/08/apple-imac-g3-touch-elo-featured.png?w=640",
+        heading:"Your dream of a touchscreen Mac was already realised back in the 90s",
+        description:" The closest thing to a Mac with touch support Apple has ever blessed us with is an iPad that runs on the same chips as the latest MacBooks. Yes, we are talking about the iPad Pro M2. But that doesn’t really run macOS, so it doesn’t count. What a bummer.And Windows PCs that support touch are everywhere, so it’s not like Apple can’t make a Mac with a touch screen. The almost $3 trillion-worth company definitely has the resources to create one – it simply doesn’t want to. But what if we told you that the Mac of our dreams does exist? You just can’t have one.Back in the olden days of the late 90s, a company called Elo decided to do what Apple wouldn’t and added touchscreen capabilities to the iconic iMac G3. Apple has been stubborn about not making a Mac with touchscreen support, so it took an outsider to do it.",
+        cat:"Technology"
     },
     {
         id:'51',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://i.guim.co.uk/img/media/cf2f0d65fd3c285d1985dd59d0f0f411589f1adb/0_52_5125_3075/master/5125.jpg?width=620&dpr=1&s=none",
+        heading:" Fitness earlier in life reduces cancer risk when older, study shows",
+        description:"Being fit earlier in life is associated with a reduced risk, in some cases of up to 42%, of developing nine different types of cancer in later life, according to a large long-term study.While exercise has been previously linked with a lower risk of certain cancers, long-term and large cohort studies on multiple cancer sites are sparse.The new study, published in the British Journal of Sports Medicine, drew on data from more than 1 million male Swedish conscripts between 16 and 25, who were followed for an average of 33 years from 1968 to 2005. The results suggested that good cardiorespiratory fitness – an individual’s ability to engage in sustained aerobic exercises such as running, cycling, and swimming – was associated with a 42% reduced risk of lung cancer, a 40% reduced risk of liver cancer and a 39% reduced risk of oesophageal cancer.",
+        cat:" Fitness"
     },
     {
         id:'52',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/02/Mental-Health-Benefits-of-Exercise.jpeg",
+        heading:" The Mental Health Benefits of Exercise",
+        description:"Exercise is not just about aerobic capacity and muscle size. Sure, exercise can improve your physical health and your physique, trim your waistline, improve your sex life, and even add years to your life. But that’s not what motivates most people to stay active.People who exercise regularly tend to do so because it gives them an enormous sense of well-being. They feel more energetic throughout the day, sleep better at night, have sharper memories, and feel more relaxed and positive about themselves and their lives. And it’s also a powerful medicine for many common mental health challenges.",
+        cat:"Fitness"
     },
     {
         id:'53',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/08/ChoosingAlcoholTreatment.png",
+        heading:"Choosing an Alcohol Rehab Treatment Program",
+        description:"Your alcohol use disorder may be a new issue, and you increasingly use drinking to cope with stressful events. You might feel like life is slipping out of your control, as if you’re entering a gradual but dangerous spiral. Or your addiction may be something you've struggled with for a long time, and it repeatedly weighs on your work, relationships, and mental and physical health. You might feel stuck in place, ashamed of repeated relapses and your inability to stay sober.No matter how severe your addiction, alcohol rehab can offer a path forward. The challenge comes in identifying which level of treatment is best for you. Once you decide on the level of treatment, you will then need to find a local rehab center or treatment program that works for you.",
+        cat:"Fitness"
     },
 
     {
         id:'54',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/02/How-to-Build-an-Exercise-Plan-1200x800.jpeg",
+        heading:"How to Build an Exercise Plan",
+        description:"So what does a balanced exercise plan consist of? The Physical Activity Guidelines for Americans from the U.S. Department of Health and Human Services urge all adults to include the following types of exercise in their weekly routines:150 minutes of moderate aerobic exercise per week (for example, 30 minutes on each of five days).or 75 minutes of vigorous aerobic activity or an equiva- lent mix of the two.",
+        cat:"Fitness"
     },{
         id:'55',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/02/Walking-Easy-Way-to-Get-Fit-1200x800.jpeg",
+        heading:"Walking: An Easy Way to Get Fit",
+        description:"The next time you have a check-up, don’t be surprised if your doctor hands you a prescription to walk. Yes, this familiar activity is now being touted (along with other forms of regular physical activity) as the closest thing we have to a wonder drug.Walking can have a bigger impact on disease risk and various health conditions than just about any other remedy that’s readily available to you. What’s more, it’s free and has practically no negative side effects. Walking for 2.5 hours a week—that’s just 21 minutes a day—can cut your risk of heart disease by 30%. In addition, this do-anywhere, no-equipment-required activity has also been shown to reduce the risk of diabetes and cancer, lower blood pressure and cholesterol, and keep you mentally sharp. Even a quick one-minute jaunt pays off. A University of Utah study in 2014 found that for every minute of brisk walking that women did throughout the day, they lowered their risk of obesity by 5%. No more “I don’t have time” excuses!",
+        cat:"Fitness"
     },
     {
         id:'56',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/02/Best-Exercises-for-Health-and-Weight-Loss-1200x794.jpeg",
+        heading:"Best Exercises for Health and Weight Loss",
+        description:"For many of us, even when we understand how much regular exercise can improve our mental and physical health, the real challenge lies in developing an exercise routine that we can stick with. It’s much easier to get up and get moving every day when you actually experience the results you’re looking for—whether that’s trimming your waistline, improving your sleep, mood, and energy, or easing symptoms of stress, anxiety, or depression.Whatever benefits you’re looking for from a fitness plan—and whatever your current fitness level—the key is to mix different types of physical activity. The most effective exercise plans should include a mix of three elements: cardio (or aerobic) training, strength training, and flexibility and balance exercises. This will not only maximize the health benefits, it will also keep your workouts varied and interesting.",
+        cat:"Fitness"
     },
     {
         id:'57',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/02/Senior-Exercise-1200x800.jpeg",
+        heading:"Senior Exercise and Fitness Tips",
+        description:"There are many reasons why we tend to slow down and become more sedentary with age. It may be due to health problems, weight or pain issues, or worries about falling. Or perhaps you think that exercising simply isn’t for you. But as you grow older, an active lifestyle becomes more important than ever to your health.A recent Swedish study found that physical activity was the number one contributor to longevity, adding extra years to your life—even if you don’t start exercising until your senior years. But getting active is not just about adding years to your life, it’s about adding life to your years.",
+        cat:"Fitness"
     },
     {
         id:'58',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://www.helpguide.org/wp-content/uploads/2023/02/Sleep-in-Older-Adults-1200x800.jpeg",
+        heading:"Sleep and Aging: Sleep Tips for Older Adults",
+        description:"As we age, we often experience normal changes in our sleeping patterns, such as becoming sleepy earlier, waking up earlier, or not sleeping as deeply. However, disturbed sleep, waking up tired every day, and other symptoms of insomnia are NOT a normal part of aging.Sleep is just as important to your physical and emotional health as it was when you were younger. A good night’s sleep helps improve concentration and memory formation, allows your body to repair any cell damage that occurred during the day, and refreshes your immune system, which in turn helps to prevent disease.",
+        cat:"Fitness"
     },
     {
         id:'59',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://images.pexels.com/photos/2597205/pexels-photo-2597205.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        heading:"How to Meditate: A Step-by-Step Guide to Reduce Stress and Find Inner Peace",
+        description:"In today’s fast-paced and chaotic world, finding inner peace and reducing stress can seem like an impossible task, which is why we want to help you learn how to meditate. One practice that has gained significant popularity and proven effectiveness is mindfulness meditation. This step-by-step guide will walk you through the process of incorporating mindfulness meditation into your daily routine. Find a quiet and comfortable space to sit or lie down without distractions. Ensure that you have enough time to devote to the practice without feeling rushed.Close your eyes and take a few deep breaths, allowing your body to relax and your mind to settle. Focus on your breath, the sensation of air flowing in and out of your nostrils.",
+        cat:"Fitness"
     },
     {
         id:'60',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://asmy.org.au/app/uploads/2020/03/Robina-Header-1-1024x819.png",
+        heading:"Yoga Asana ",
+        description:"Yoga improves strength, balance and flexibility.Yoga helps with back pain relief. Yoga can ease arthritis symptoms.Yoga benefits heart health.Yoga relaxes you, to help you sleep better.Yoga can mean more energy and brighter moods.Yoga helps you manage stress. Yoga connects you with a supportive community.Yoga promotes better self-care. ",
+        cat:"Fitness"
     },
     {
         id:'61',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Fitness"
     },
     {
         id:'62',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Fitness"
     },
     {
         id:'63',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Fitness"
     },
     {
         id:'64',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Fitness"
     },
     {
         id:'65',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Fitness"
     },
     {
         id:'66',
