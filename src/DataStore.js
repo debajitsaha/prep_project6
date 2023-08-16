@@ -471,105 +471,105 @@ function DataStore(props){
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'67',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'68',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'69',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'70',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:" Food"
     },
     {
         id:'71',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'72',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'73',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'74',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'75',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'76',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'77',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'78',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'79',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'80',
         image:" ",
         heading:" ",
         description:" ",
-        cat:" "
+        cat:"Food"
     },
     {
         id:'81',

@@ -30,7 +30,7 @@ function Techonology() {
       </div>
       {/* first container */}
       <div className='first_container'>
-      <div className='bolly'><p>Bollywood</p></div>
+      <div className='bolly'><p>Technology</p></div>
       <div className='fullimg1'>
       {ContextData.filter((item)=>item.id==="36").map((item,index)=>{
         console.log(item.id)
@@ -130,7 +130,7 @@ function Techonology() {
     
     <div className='addvatise1'>
       <div className='add1'>
-        <img src="https://tpc.googlesyndication.com/simgad/6417104687505707077?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qkWvV7f6Y895YIdPYzS1Y9nq-XAIA" alt=" not found" />
+        <img src="https://tpc.googlesyndication.com/simgad/15272262885327900341" alt=" not found" />
     </div>
     
     </div>

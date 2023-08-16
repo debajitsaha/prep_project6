@@ -1,4 +1,7 @@
-
+body{
+  margin: 0px;
+  padding: 0px;
+}
 .parent{
   display: flex;
   justify-content: space-evenly;
@@ -8,6 +11,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   height: 30px;
+  width: auto;
 }
 .fullimg{
 width: 65%;
@@ -203,7 +207,19 @@ margin-right: 10px;
 
 /* mobile view */
 @media only screen and (min-width:300px) and (max-width:500px){
-  .card {
+ 
+  .parent{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    box-shadow:0px 0px 8px gray;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 100vw;
+  }
+   .card {
   /* border: 1px solid hsl(0, 0%, 80%); */
   padding: 5px;
   /* width: calc(100% - 70px);  Three cards in a row with some spacing */
@@ -260,6 +276,14 @@ margin-right: 10px;
   height: 10em;
   width: 20em;
  }
+ #topimg2{
+  height: 10em;
+  width: 20em;
+ }
+ #topimg3{
+  height: 10em;
+  width: 20em;
+ }
 
 
  .fullimg{
@@ -268,6 +292,12 @@ margin-right: 10px;
   /* border: 2px solid black; */
   margin-left: 40px;
   }
+  .fullimg1{
+    width: 20em;
+    height: 17em;
+    /* border: 2px solid black; */
+    margin-left: 8%;
+    }
   .cardname{
     margin-left:0px;
     margin-right:0px;
