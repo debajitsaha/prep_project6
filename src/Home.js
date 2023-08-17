@@ -150,7 +150,7 @@ return (
        
         <div >
         
-        <Link to={'/home/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg5'/></Link>
+        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg5'/></Link>
         <p key={index} className='topheading'>{item.heading}</p>
         </div>
       
@@ -165,7 +165,7 @@ return (
       <>
         <div className='card'>
         
-        <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
         <div className='title'>
         <h3 key={index} >{item.heading}</h3>
         <p>{item.description}</p></div>
@@ -188,7 +188,7 @@ return (
       <>
         <div className='card1'>
         
-        <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
         <div className='title1'>
         <h3 key={index} >{item.heading}</h3>
         <p>{item.description}</p></div>
@@ -211,7 +211,7 @@ return (
       <>
         <div className='card1'>
         
-        <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
         <div className='title1'>
         <h3 key={index} >{item.heading}</h3>
         <p>{item.description}</p></div>
