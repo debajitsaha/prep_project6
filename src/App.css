@@ -170,17 +170,36 @@ margin-right: 10px;
   margin-right: 160px;
   height: 50vh;
   width: 80vw;
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(145, 141, 141);
+  display: flex;
+  justify-content: space-around;
+  
 
 }
 .footer1{
   display:flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .footer2{
   display:flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-around;
 }
+.footer3{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#fbfooter1{
+  height:"40%";
+  width:"60%";
+}
+/* .innerfooter1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+} */
 #applestore{
   margin-left: 10px;
 }
@@ -205,13 +224,24 @@ margin-right: 10px;
     /* border: 2px solid black; */
     margin-left: 70px;
   }
-
+  .fullimg5{
+    width: 70%;
+    height: 340px;
+    /* border: 2px solid black; */
+    margin-left: 70px;
+    }
+    #topimg5{
+      
+        height: 17em;
+        width: 35em;
+       
+    }
 #addimg{
   height:"400px" ;
   width:"400px";
 }
 
-
+ 
 
 
 /* mobile view */
@@ -299,6 +329,10 @@ margin-right: 10px;
   height: 10em;
   width: 19em;
  }
+ #topimg5{
+  height: 10em;
+  width: 19em;
+ }
 
 
  .fullimg{
@@ -319,6 +353,12 @@ margin-right: 10px;
     /* border: 2px solid black; */
     margin-left: 8%;
     }
+    .fullimg5{
+      width: 70%;
+      height: 270px;
+      /* border: 2px solid black; */
+      margin-left: 30px;
+      }
   .cardname{
     margin-left:0px;
     margin-right:0px;
@@ -332,10 +372,27 @@ margin-right: 10px;
     text-align: center;
     margin-left:0px ;
     margin-right:0px;
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
-    background-color: rgb(66, 66, 66);
-  
+    background-color: rgb(161, 156, 156);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .footer1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer3{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .bolly{
     text-decoration: underline;
@@ -343,5 +400,9 @@ margin-right: 10px;
     font-size: 26px;
     display: block;
     margin-left: 20%;
+  }
+  #fbfooter1{
+    height:"50px";
+    width:"60%";
   }
 }

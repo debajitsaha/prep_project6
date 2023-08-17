@@ -585,21 +585,9 @@ function DataStore(props){
         heading:"Dig into ilish, prawn, mutton khichuri at Kewpie’s ‘Khichurir Utshob’ ",
         description:"A gloomy sky, and a threat of rain, is all Bengalis need to turn their thoughts towards the sumptuous and simple meal of khichuri. Simmering on the stove, filling the air with aroma — khichuri day at home is forever awaited. Khichuri is a symphony of simple flavours and spices that warms you from within, and hence its popularity on cold, wet days.",
         cat:"Food"
-    },
-    {
-        id:'83',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
-    },
-    {
-        id:'84',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
     }
+
+   
 
     
 
