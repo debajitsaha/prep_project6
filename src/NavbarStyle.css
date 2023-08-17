@@ -58,8 +58,8 @@ nav{
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 50px;
-        right: -300px;
+        top: 45px;
+        right: -320px;
         width: 280px;
         height: 50vh;
         background-color: #2a3239;
@@ -67,10 +67,11 @@ nav{
         padding: 0 0 10px;
         transition: 0.3s ease-in-out;
     }
+    
     nav{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        /* width: %; */
     }
     #mobile{
         display: block;
@@ -78,6 +79,14 @@ nav{
     .logo{
         display: block;
         color: #fff;
+        text-decoration: none;
+    }
+    .logo a:hover,
+    .logo a.active{
+        color: #fff;
+    }
+    .logo a{
+        text-decoration: none;
     }
     .heading{
         display: none;

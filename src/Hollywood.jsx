@@ -85,7 +85,7 @@ return (
     })}
       </div>
       <div>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_StvZhI1tjlgApgjpbZhPEJ8kJupVGYSLQ&usqp=CAU' alt='not found' height="400px" width="400px"></img>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_StvZhI1tjlgApgjpbZhPEJ8kJupVGYSLQ&usqp=CAU' alt='not found' height="100%" width="100%"></img>
       </div>
       <div>
       <h1 className='mostpopular'>Most Popular</h1>
@@ -111,13 +111,14 @@ return (
     })}
       </div>
       <div className='addvatisement'>
-        <br/>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3UseH_Ko0-tXEjJ7kNH7tOge7BC23ZG1r6g&usqp=CAU' alt='not found' height="250px" width="400px"/>
-      </div>
-      <div className='addvatisement'>
-        <br/>
-        <img src='https://png.pngtree.com/png-clipart/20220429/original/pngtree-advertising-poster-for-cosmetic-product-for-catalog-png-image_7577529.png' alt='not found' height="750px" width="350px"/>
-      </div>
+          <br/>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcT54a0dFgicFyZ3B-h1mRn7N4P2Ue7mUPBw&usqp=CAU' alt='not found' height="100%" width="100%"/>
+        </div>
+        <div className='addvatisement'>
+          <br/>
+          <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="80%"/>
+        </div>
+        
       
       
   </div>

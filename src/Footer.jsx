@@ -4,8 +4,8 @@ function Footer() {
   return (
     <div className='footer'>
       <div className="footer1">
-         <div></div>
-         <div></div>
+         <div><span className='vartical'>The</span><span id='head'>Siren</span> </div>
+         <div> </div>
          <div></div>
       </div>
       <div className="footer2">

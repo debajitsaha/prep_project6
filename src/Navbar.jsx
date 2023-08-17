@@ -1,7 +1,7 @@
 import "./NavbarStyle.css"
 import React from 'react'
 import { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 class Navbar extends Component {
     state={clicked:false};
     handleClick=()=>{
@@ -12,8 +12,8 @@ class Navbar extends Component {
     <>
     <nav>
         <div className='logo'>
-              <span className='vartical'>The</span><span id='head'>Siren</span> 
-        </div>
+        <a href="/" >  <Link to={'/'} className="active"><span className='vartical'>The</span><span id='head'>Siren</span>  </Link>
+        </a></div>
         <div  >
             <ul id="navbar" className={this.state.clicked?"#navbar active":"#navbar"}>
                 <li><a href="/" > <NavLink to={'/'} className="navbar" onClick={this.handleClick}> Home </NavLink></a></li>

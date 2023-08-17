@@ -433,157 +433,158 @@ function DataStore(props){
     },
     {
         id:'61',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://images.indianexpress.com/2023/08/shilpa-shetty_1200_insta-1.jpg?w=640",
+        heading:" Here’s a sneak peek into Shilpa Shetty Kundra’s diet",
+        description:"Shilpa Shetty Kundra is known not just for her acting skills but her fitness-oriented lifestyle with a commitment to staying healthy through wholesome diet too. As such, when we cam across a glimpse of her enjoying a wholesome meal, we decided to deep dive.",
         cat:"Fitness"
     },
     {
         id:'62',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://images.indianexpress.com/2023/07/fruits.jpg?w=640",
+        heading:"How to incorporate protein into your diet for muscle-building",
+        description:"You’re back to the gym to get those six-pack abs or enviable muscles, but you don’t know where to begin. Well, the first thing you should be focusing on is your food. Namely, a protein-heavy diet.According to Dr Shuchin Bajaj, Founder Director, Ujala Cygnus Group of Hospitals, consuming a protein-heavy diet is important for muscle building because protein is essential for muscle growth, repair, and maintenance. “When you engage in activities that break down muscle tissue, such as resistance training, your body requires an adequate amount of protein to rebuild and strengthen the muscles,” he said.",
         cat:"Fitness"
     },
     {
         id:'63',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://images.indianexpress.com/2023/08/indian-dishes.jpg?w=640",
+        heading:"On Independence Day, Taste Atlas reveals the 50 best foods and drinks in India",
+        description:"One thing that unites people across borders irrespective of their gender, caste or religion, is their love for food. Especially in India, where history has been full of conflicts, wars, protests to negotiations for freedom, food has kept people connected. Moreover, Indian cuisine is recognised worldwide for its unique taste, style of preparation and local spices that enrich the palate.",
         cat:"Fitness"
     },
     {
         id:'64',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://images.indianexpress.com/2023/08/malaika-arora-1.jpg?w=640",
+        heading:" Malaika Arora on finding balance through yoga: Inhale serenity and exhale chaos",
+        description:"Malaika Arora never ceases to amaze us with her dedication to fitness. Despite her busy schedule, she is committed to her fitness and is often seen encouraging her fans as well to stay on top of their fitness game. She is also fond of yoga and regularly posts videos of herself engaging in the practice. Recently, Malaika shared a post on Instagram motivating her followers to find their balance through practising yoga regularly.",
         cat:"Fitness"
     },
     {
         id:'65',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://images.indianexpress.com/2023/08/ananya-panday-1200-1.jpg?w=640",
+        heading:"Style alert: Ananya Panday turns into Dream Girl for film promotions",
+        description:"For all the Gen-Z out there, Ananya Panday’s wardrobe serves as the perfect source of inspiration. Whether it’s her stylish monotone ensembles or graceful traditional outfits, the actor undeniably excels at expressing herself through her fashion choices. As the promotions for Ananya’s upcoming movie, Dream Girl 2, unfold, we are being treated to yet another stunning display of her sartorial prowess.",
         cat:"Fitness"
     },
     {
         id:'66',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/2/3/0/hmm_pumpkin-rice-pudding_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382539244103.jpeg",
+        heading:"Rice Pudding, Lightened Up",
+        description:" I was never a rice pudding fan until a few years ago when my middle daughter starting requesting it daily. Since then I’ve been experimenting with a few variations of this classic to help lighten up the creamy calories while still maintaining its delicious flavor.",
         cat:"Food"
     },
     {
         id:'67',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/7/26/1/CN1B01_oven-baked-salmon_s4x3.jpg.rend.hgtvcom.966.725.suffix/1382545141944.jpeg",
+        heading:"122 Weeknight Dinners That Make It Easy to Eat Healthy",
+        description:"We know that getting dinner on the table every night can be difficult: You need to have time, energy and a plan, not to mention a good recipe! And if you want that dinner to be nutritious, you might find this task to be even more burdensome — but we’re here to help. We rounded up over 100 of our very best healthy dinners that are perfect for weeknights. From low-carb meals to flavor-packed pastas, we have you covered. Don't worry about spending a lot of cash, either, as cheap healthy meals exist and they can be quite delicious. This salmon dinner couldn't be simpler. Season the fish with salt and pepper, then pop it in the oven to bake to perfection in 15 minutes. An easy-to-make parsley and almond salsa goes on top.",
         cat:"Food"
     },
     {
         id:'68',
-        image:" ",
-        heading:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/8/0/FN_Spaghetti-012_s4x3.jpg.rend.hgtvcom.966.725.suffix/1382539775009.jpeg",
+        heading:"17 Healthy Pasta Dinners to Satisfy Your Craving ",
         description:" ",
         cat:"Food"
     },
     {
         id:'69',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/4/26/0/HE_kwon-Ground-Turkey-Enchilada-Stir-Fry-with-Couscous_s4x3.jpg.rend.hgtvcom.966.725.suffix/1461695054811.jpeg",
+        heading:"107 Healthy Dinners That Are Ready in 40 Minutes or Less ",
+        description:"Inspired by Spanish garlic shrimp, this ultra-simple dish is cooked entirely in a rice cooker. It’s boosted with the smoky flavors of chorizo and paprika, then rounded out with crunchy red peppers and a bright squeeze of lemon at the end. Layering the cooked chorizo on the bottom of the rice cooker releases a bright orange oil that flavors the rice. And the steam helps soften the sausage in a way that other cooking methods do not. Jumbo shrimp work better than large shrimp for this recipe because they won't overcook.",
         cat:"Food"
     },
     {
         id:'70',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/08/19/WU3203-ree-drummond-crispy-everything-chicken-cutlets_4x3.jpg.rend.hgtvcom.966.725.suffix/1660928170362.jpeg",
+        heading:"30-Minute Dinner Recipes That’ll Save Your Weeknights",
+        description:"There’s no denying that getting a family-friendly dinner on the table can be tricky at the best of times, let alone on busy weeknights. But, we’re here to tell you that with the right recipes (easy dinners, preferably ones that don’t require much cleanup) it’s completely possible to get a home cooked meal on the table in a matter of minutes. Whether you’re craving chicken breast, a filet of salmon, thick-cut pork chops or something else, you’ll find exactly what you’re looking for here—starting with Ree’s super fun take on crispy chicken cutlets. She adds everything bagel seasoning (a savory mix of black and white sesame seeds, dried garlic and onion, sea salt and poppy seeds) to the breadcrumb coating to ensure that each bite is packed with flavor.",
         cat:" Food"
     },
     {
         id:'71',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/4/2/2/LS-Library_Hearty-Meat-Sauce_s4x3.jpg.rend.hgtvcom.966.725.suffix/1522720966329.jpeg",
+        heading:"Our 50 Best Ground Beef Recipes",
+        description:"Ground beef is one of those ingredients that we almost always have on hand. It adds a great meaty flavor to whatever you’re cooking, for a fraction of the price of steak. And, because the meat is ground up, you can easily stretch it (try adding beans, grains or chopped mushrooms) and feed more people. Best of all, ground beef is a key ingredient in so many of our favorite comfort foods and family-friendly dinners — so it’s one ingredient that we’ve always got a use for. Meatballs, stuffed peppers, sloppy Joes and more: a delicious meal is always within reach when you’ve got ground beef on hand. Take this simple, hearty meat sauce, for example. The beef is seasoned with dried herbs and simmered with canned tomatoes until the flavor meld to perfection. Served over cooked spaghetti it’s the perfect no-fuss meal from the pantry — that everyone will love.",
         cat:"Food"
     },
     {
         id:'72',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/10/26/0/FNK_Healthy-Juicy-Grilled-Cheeseburgers_s4x3.jpg.rend.hgtvcom.966.725.suffix/1371611669852.jpeg",
+        heading:" Our Best Healthy Ground Beef Recipes",
+        description:"Eating healthy doesn't have to mean skipping red meat. Here's how to enjoy burgers, meatloaf and more of your favorites without blowing your diet.If you think you need to skip beef entirely in order to reduce calories, think again. Food Network Kitchen’s Juicy Grilled Cheeseburgers take the guilt out of this summertime staple and weigh in at just under 400 calories per serving — roughly half of what you could expect from most fast-food options.",
         cat:"Food"
     },
     {
         id:'73',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/14/0/cc_hasselback-sp_s4x3.jpg.rend.hgtvcom.966.725.suffix/1382541177866.jpeg",
+        heading:"Our Best Healthy Sweet Potato Recipes",
+        description:"Hasselback potatoes are whole potatoes that have been cut into a fan shape, dotted with butter, then roasted. The result is a crispy-on-the-outside, creamy-on-the-inside spud. The technique can be done with white or sweet potatoes. For a healthier potato side dish, go with sweet.",
         cat:"Food"
     },
     {
         id:'74',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/11/23/0/GISP01H_whiskey-glazed-sweet-potatoes_s4x3.jpg.rend.hgtvcom.966.725.suffix/1406107326020.jpeg",
+        heading:"50 Sweet Potato Recipes You'll Swear By ",
+        description:"The sweet potato is probably one of the most underrated ingredients in your kitchen. Not only is it healthy and chock-full of nutrients, it’s perfect for any meal of the day — and tastes great. That’s a win-win-win! (And, don't even get us started on how easy it is to grow sweet potatoes at home!) Whether you’re wondering how to bake sweet potatoes in the oven, want a few great ideas for stuffing your spuds full of toppings or just need some healthy sweet potato recipes, these ideas will help. Not sure where to start? We like Guy’s take; he adds a bit of whiskey to a mixture of sweet potatoes and apples for a super-flavorful fall side.",
         cat:"Food"
     },
     {
         id:'75',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/4/12/1/FNK_Sweet-Potato-Casserole_s4x3.jpg.rend.hgtvcom.966.725.suffix/1460503592924.jpeg",
+        heading:"102 Classic Thanksgiving Side Dish Recipes",
+        description:"We’re just going to come out and say it: the sides are the best part of the feast. We love a Thanksgiving turkey as much as anyone else but there’s nothing quite as satisfying as piling your plate high with an assortment of flavors. On turkey day that means tried-and-true classics (like green bean casserole, Thanksgiving stuffing and sweet-tart cranberry sauce), a cornucopia of vegetable side dishes and, of course, all the oh-so-hearty-and-satisfying side dishes starring potatoes and sweet potatoes. And, while we fully support making as many sides as possible for your Thanksgiving dinner, there’s one that’s an absolute must: this crowd-pleasing sweet potato casserole, sprinkled with a crunchy pecan topping!",
         cat:"Food"
     },
     {
         id:'76',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/8/10/0/Thanksgiving-2011_TU0209-cranberry-orange-sauce_s4x3.jpg.rend.hgtvcom.966.725.suffix/1384541150310.jpeg",
+        heading:"42 Cranberry Sauce Recipes That Are Truly Special",
+        description:" Whether you prefer it jellied and cut into slices, on the side as a chunky relish or something in between, it just isn’t Thanksgiving without cranberries on the table. And, as tempting as it is to simply open a can and wiggle that jiggly tube of premade cranberry sauce onto a serving plate, we’re here to tell you that it’s so worth it to make your own. Not only is cranberry sauce incredibly easy to whip up (you can even make it in the microwave!) but it will leave you with the absolute best leftovers. You can stir it into oatmeal for breakfast, spread it on bread for an upgraded turkey sandwich, spoon it over pan-fried pork chops — the possibilities are near endless.",
         cat:"Food"
     },
     {
         id:'77',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/3/0/fnk_the-best-stuffing_h_s4x3.jpg.rend.hgtvcom.966.725.suffix/1567523606249.jpeg",
+        heading:"85 Thanksgiving Stuffing Recipes That Are Full of Flavor",
+        description:"Obviously you’ll include stuffing — or dressing — when you’re curating the perfect Thanksgiving menu. But deciding which stuffing to serve with your turkey might be a bit challenging; there are so many great versions to choose from! Are you craving a gluten-free stuffing, a side filled with sausage or a vegan crowd-pleaser? There's something for everyone in our best stuffing recipe. It's filled with satisfying ingredients like sausage and mushrooms, plus classic Thanksgiving flavors like onion, celery and lots of chopped herbs. It’s irresistible baked in a casserole dish and served alongside the turkey. And if you're lucky enough to have leftovers, we're sure you won't be disappointed.",
         cat:"Food"
     },
     {
         id:'78',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/10/10/0/FN_Thanksgiving-Stuffing-Stock-476655851_s4x3.jpg.rend.hgtvcom.966.725.suffix/1507665407724.jpeg",
+        heading:"Stuffing Do's and Don'ts",
+        description:"The problem with stuffing a turkey is twofold: One: It often yields a soggy mass of unappealing mush. Two: It is really hard to get it up to 165 degrees F, the temperature at which the USDA says it is safe to eat. (Basically, if you do it right, you will end up overcooking your turkey.)If you simply cannot resist stuffing the turkey, follow these guidelines: Prepare the stuffing at the very last minute and stuff the bird loosely (don't pack it) just before it goes into the oven. Letting it sit around leaves too much opportunity for bacteria to breed. Be sure that the stuffing — not just the turkey — cooks to at least 165 degrees F.",
         cat:"Food"
     },
     {
         id:'79',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/4/1/FNM_110113-Oyster-Dressing-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1383814928217.jpeg",
+        heading:"What's the Difference Between Stuffing and Dressing?",
+        description:"In many homes, the words stuffing and dressing are used interchangeably to reference that steamy mixture of bread, veggies and herbs that takes second seat next to the turkey at your Thanksgiving table. Though for some, the loyalty to either stuffing or dressing over the other runs deep. But is there really a difference between stuffing and dressing? Which elements of the dishes dictate their classification as one and not the other? How should you cook the stuffing or dressing to ensure that it’s served piping hot and moist and has a subtle, crisp top? We have the answers, plus four foolproof recipes that will steal the side dish show at your Thanksgiving dinner.",
         cat:"Food"
     },
     {
         id:'80',
-        image:" ",
-        heading:" ",
-        description:" ",
+        image:"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/11/11/0/fnk_tg-fruit-salad-h-0317_s4x3.jpg.rend.hgtvcom.616.462.suffix/1573495955293.jpeg",
+        heading:"Chill Out with These Cold Thanksgiving Sides ",
+        description:"Adding a few cold side dishes to your menu should be part of your Thanksgiving prep game plan. Many of these dishes don't require a stove, which will simplify the kitchen logistics, and the ones that do — for, say, roasting veggies or making a stovetop cranberry sauce — can be prepped ahead of the big day, which will greatly reduce your stress on Thanksgiving. Turning to cold sides is also a way to incorporate a variety of vibrant veggies and lighter seasonal sides in the mix. It's all about balance, right? ",
         cat:"Food"
     },
     {
         id:'81',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        image:"https://assets.telegraphindia.com/telegraph/2023/Aug/1691758996_khanti-damodaar-seth-1-1.jpg",
+        heading:"Ilish, the queen of fish, takes centre stage at Kolkata restaurants",
+        description:"The monsoon has brought a treat for fish lovers — the beloved ilish is making waves in Kolkata’s restaurants, and creating a festival of flavours. Following our first article on the ilish festivals at well-known Bengali food stops, we’re back with a fresh batch of restaurants offering special Hilsa menus. It’s a feast you won’t want to miss! ",
+        cat:"Food"
     },
     {
         id:'82',
-        image:" ",
-        heading:" ",
-        description:" ",
-        cat:" "
+        
+        image:"https://assets.telegraphindia.com/telegraph/2023/Aug/1691842046_lead.jpg",
+        heading:"Dig into ilish, prawn, mutton khichuri at Kewpie’s ‘Khichurir Utshob’ ",
+        description:"A gloomy sky, and a threat of rain, is all Bengalis need to turn their thoughts towards the sumptuous and simple meal of khichuri. Simmering on the stove, filling the air with aroma — khichuri day at home is forever awaited. Khichuri is a symphony of simple flavours and spices that warms you from within, and hence its popularity on cold, wet days.",
+        cat:"Food"
     },
     {
         id:'83',

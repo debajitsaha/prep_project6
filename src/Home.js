@@ -34,7 +34,7 @@ return (
          
           <div >
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg'/></Link>
+          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg'/></Link>
           <p key={index} className='topheading'>{item.heading}</p>
           </div>
         
@@ -43,13 +43,13 @@ return (
     })}
     </div>
     <div className='cardname'>
-    {ContextData.filter((item)=>item.cat==="Bollywood").map((item,index)=>{
+    {ContextData.filter((item)=>item.cat==="Food").map((item,index)=>{
       console.log(item.id)
       return(
         <>
           <div className='card'>
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
           <div className='title'>
           <h3 key={index} >{item.heading}</h3>
           <p>{item.description}</p></div>
@@ -65,14 +65,14 @@ return (
   <div className='second_container'>
       <div>
         <h1>Top Story</h1>
-      {ContextData.filter((item)=>(item.cat==="Bollywood"&& item.id%3===0)).map((item,index)=>{
+      {ContextData.filter((item)=>(item.cat==="Food"&& item.id%3===0)).map((item,index)=>{
       console.log(item.id)
       return(
 
         <>
           <div className='card1'>
           
-          <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
           <div className='title1'>
           <h3 key={index} >{item.heading}</h3>
           <p>{item.description}</p></div>
@@ -110,7 +110,7 @@ return (
   
   <div className='addvatise1'>
     <div className='add1'>
-      <img src="https://tpc.googlesyndication.com/simgad/6417104687505707077?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qkWvV7f6Y895YIdPYzS1Y9nq-XAIA" alt=" not found" />
+      <img src="https://secure-ds.serving-sys.com/resources/PROD/asset/1073746971/IMAGE/20230816/Ant-IE-APD-160x600_2_81511189808431749.jpg" alt=" not found" />
   </div>
   
   </div>
