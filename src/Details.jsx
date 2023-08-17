@@ -69,7 +69,7 @@ function Details() {
           <div className='carddetails'>
             <div className='card3'>
             
-            <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+            <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
             <div className='title'>
             <h3 key={index} >{item.heading}</h3>
             <p>{item.description}</p></div>
