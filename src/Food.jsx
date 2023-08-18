@@ -147,7 +147,7 @@ return (
   
   <div className='addvatise1'>
     <div className='add1'>
-      <img src="https://secure-ds.serving-sys.com/resources/PROD/asset/1073746971/IMAGE/20230816/Ant-IE-APD-160x600_2_81511189808431749.jpg" alt=" not found" />
+      <img src="https://secure-ds.serving-sys.com/resources/PROD/asset/1073746971/IMAGE/20230816/Ant-IE-APD-160x600_2_81511189808431749.jpg" alt=" not found"  />
   </div>
   
   </div>

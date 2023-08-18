@@ -151,10 +151,11 @@ h1{
 }
 .add2{
   position: fixed;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .add1{
   position: fixed;
+
  
   
 }
@@ -179,7 +180,7 @@ h1{
 .main-footer{
   background-color: rgb(145, 141, 141);
   height: 50vh;
-  width: 100vw;
+  width: 98.5vw;
 }
 .footer{
   text-align: center;
@@ -435,4 +436,195 @@ h1{
     height:"50px";
     width:"60%";
   }
+}
+/* tab viwe*/
+
+@media only screen and (min-width:501px) and (max-width:950px){
+
+.add1{
+  display: none;
+}
+.add2{
+  display: none;
+}
+.add3{
+display: none;
+}
+.add4{
+  display: none;
+}
+.add5{
+  display: none;
+}
+.parent{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+  box-shadow:0px 0px 8px gray;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 100vw;
+}
+#addimg{
+  height:"200px" ;
+  width:"200px";
+}
+ .card {
+/* border: 1px solid hsl(0, 0%, 80%); */
+padding: 5px;
+/* width: calc(100% - 70px);  Three cards in a row with some spacing */
+margin: 15px;
+box-sizing: border-box;
+display: flex;
+/* vertical-align: top; */
+/* text-align: center; */
+font-size: small;
+} 
+.card1 {
+/* border: 1px solid hsl(0, 0%, 80%); */
+padding: 5px;
+width: 90%;
+/* width: calc(100% - 70px);  Three cards in a row with some spacing */
+margin: 15px;
+box-sizing: border-box;
+display: flex;
+/* vertical-align: top; */
+/* text-align: center; */
+font-size: small;
+} 
+.main-container{
+display: block;
+}
+.first_container{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+/* border:2px solid blue ; */
+}
+.second_container{
+width: 90%;
+margin-right:6% ;
+margin-left: 5%;
+}
+/* .parent{
+display: none;
+} */
+.heading{
+text-align: start;
+}
+.add2{
+display: none;
+}
+.add3{
+display: none;
+}
+.add4{
+display: none;
+}
+.add5{
+display: none;
+}
+#topimg{
+  height:13em ;
+  width: 30em;
+}
+#topimg1{
+  height:13em ;
+  width: 35em;
+}
+#topimg2{
+  height:13em ;
+  width: 30em;
+}
+#topimg3{
+  height:13em ;
+  width: 30em;
+}
+#topimg4{
+height:13em ;
+width: 30em;
+}
+#topimg5{
+  height:13em ;
+  width: 30em;
+}
+
+
+.fullimg{
+width: 65%;
+height: 230px;
+/* border: 2px solid black; */
+margin-left: 30px;
+}
+.fullimg2{
+  width: 70%;
+  height: 270px;
+  /* border: 2px solid black; */
+  margin-left: 30px;
+  }
+.fullimg1{
+  width: 60%;
+  height: 17em;
+  /* border: 2px solid black; */
+  margin-left: 8%;
+  }
+  .fullimg5{
+    width: 70%;
+    height: 270px;
+    /* border: 2px solid black; */
+    margin-left: 30px;
+    }
+.cardname{
+  margin-left:0px;
+  margin-right:0px;
+  /* border: 2px solid green; */
+  margin-top: 2em;
+}
+.addvatise1{
+  display: none;
+}
+.main-footer{
+  background-color: rgb(145, 141, 141);
+  height: 80vh;
+  width: 100vw;
+}
+.footer{
+  text-align: center;
+  margin-left:0px ;
+  margin-right:0px;
+  height: 80vh;
+  width: 100vw;
+  /* background-color: rgb(161, 156, 156); */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.footer1{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer2{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer3{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bolly{
+  text-decoration: underline;
+  width: 40%;
+  font-size: 26px;
+  display: block;
+  margin-left: 20%;
+}
+#fbfooter1{
+  height:"30px";
+  width:"60%";
+}
 }

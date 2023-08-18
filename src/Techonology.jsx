@@ -154,7 +154,7 @@ function Techonology() {
     
     <div className='addvatise1'>
       <div className='add1'>
-        <img src="https://tpc.googlesyndication.com/simgad/15272262885327900341" alt=" not found" />
+        <img src="https://tpc.googlesyndication.com/simgad/15272262885327900341" alt=" not found"  />
     </div>
     
     </div>
