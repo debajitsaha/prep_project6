@@ -17,7 +17,7 @@ function RouteCompo() {
         {/* Heading */}
         <BrowserRouter >
         <div className='heading'>
-              <span className='vartical'>The</span><span id='head'>Siren</span> 
+        <Link to={'/'} className="active1"> <span className='vartical'>The</span><span id='head'>Siren</span> </Link>
         </div>
         {/* Navbar */}
         <Navbar></Navbar>
