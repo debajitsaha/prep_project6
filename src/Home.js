@@ -150,8 +150,10 @@ return (
        
         <div >
         
-        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg5'/></Link>
-        <p key={index} className='topheading'>{item.heading}</p>
+        <Link to={'/:page/'+item.id} className="active1"><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} id='topimg5'/>
+        <p key={index} className='topheading'>{item.heading}</p></Link>
         </div>
       
        
@@ -163,12 +165,19 @@ return (
     console.log(item.id)
     return(
       <>
-        <div className='card'>
         
-        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <div className='card'>
+          <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} >
+        <img src={item.image} alt="Not found" state={{Data:index}} onClick={() => { window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+}} className='img'/></Link>
         <div className='title'>
+        <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} >
         <h3 key={index} >{item.heading}</h3>
-        <p>{item.description}</p></div>
+        <p>{item.description}</p></Link></div>
         
         </div><hr /></>
         // </div>
@@ -188,10 +197,17 @@ return (
       <>
         <div className='card1'>
         
-        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+        <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
         <div className='title1'>
+        <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}>
         <h3 key={index} >{item.heading}</h3>
-        <p>{item.description}</p></div>
+        <p>{item.description}</p></Link></div>
         
         </div><hr /></>
         // </div>
@@ -211,10 +227,17 @@ return (
       <>
         <div className='card1'>
         
-        <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+        <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
         <div className='title1'>
+        <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}>
         <h3 key={index} >{item.heading}</h3>
-        <p>{item.description}</p></div>
+        <p>{item.description}</p></Link></div>
         <div className='count'>
           {++count}
         </div>
@@ -231,7 +254,7 @@ return (
     </div>
     <div className='addvatisement'>
       <br/>
-      <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="80%"/>
+      <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="100%"/>
     </div>
     {/* <div className='addvatisement'>
       <br/>
@@ -250,6 +273,7 @@ return (
 </div>
 <Footer/>
 </>
+
 )
 }
 

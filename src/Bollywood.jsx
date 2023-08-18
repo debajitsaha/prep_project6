@@ -37,8 +37,10 @@ function Bollywood() {
            
             <div >
             
-            <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg'/></Link>
-            <p key={index} className='topheading'>{item.heading}</p>
+            <Link to={'/bollywood/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} id='topimg'/>
+            <p key={index} className='topheading'>{item.heading}</p></Link>
             </div>
           
            
@@ -52,10 +54,13 @@ function Bollywood() {
           <>
             <div className='card'>
             
-            <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+            <Link to={'/bollywood/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
             <div className='title'>
+            <Link to={'/bollywood/'+item.id} className='active1'>
             <h3 key={index} >{item.heading}</h3>
-            <p>{item.description}</p></div>
+            <p>{item.description}</p></Link></div>
             
             </div><hr /></>
             // </div>
@@ -75,10 +80,13 @@ function Bollywood() {
           <>
             <div className='card1'>
             
-            <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+            <Link to={'/bollywood/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
             <div className='title1'>
+            <Link to={'/bollywood/'+item.id} className='active1'>
             <h3 key={index} >{item.heading}</h3>
-            <p>{item.description}</p></div>
+            <p>{item.description}</p> </Link></div>
             
             </div><hr /></>
             // </div>
@@ -98,10 +106,16 @@ function Bollywood() {
           <>
             <div className='card1'>
             
-            <Link to={'/bollywood/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+            <Link to={'/bollywood/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
             <div className='title1'>
+            <Link to={'/bollywood/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} >
+    
             <h3 key={index} >{item.heading}</h3>
-            <p>{item.description}</p></div>
+            <p>{item.description}</p></Link></div>
             <div className='count'>
               {++count}
             </div>
@@ -118,11 +132,11 @@ function Bollywood() {
         </div>
         <div className='addvatisement'>
           <br/>
-          <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="80%"/>
+          <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="100%"/>
         </div>
         <div className='addvatisement'>
           <br/>
-          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400vh" width="95%"/>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400vh" width="100%"/>
         </div>
         
     </div>

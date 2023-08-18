@@ -1,7 +1,10 @@
 import React from 'react'
 import "./App.css"
+import { Link } from 'react-router-dom'
+
 function Footer() {
   return (
+    <div className="main-footer">
     <div className='footer'>
       <div className="footer1">
          <div><span className='vartical'>The</span><span id='head'>Siren</span> </div>
@@ -13,11 +16,22 @@ function Footer() {
          
       </div >
       <div className='footer3'>
-          <div><p>Bollywood</p></div>
-          <div><p>Technology</p></div>
-          <div><p>Hollywood</p></div>
-          <div><p>Fitness</p></div>
-          <div><p>Food</p></div>
+        <div> <h3>POPULAR CATEGORIES</h3></div>
+          <div> <Link to={'/bollywood'} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} > <p>Bollywood</p></Link></div>
+          <div><Link to={'/technology'} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><p>Technology</p></Link></div>
+          <div><Link to={'/hollywood'} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><p>Hollywood</p></Link></div>
+          <div><Link to={'/fitness'} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><p>Fitness</p></Link></div>
+          <div><Link to={'/food'} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><p>Food</p></Link></div>
           
          </div>
       
@@ -34,6 +48,7 @@ function Footer() {
        <div></div>
        <div></div>
       </div>
+    </div>
     </div>
   )
 }

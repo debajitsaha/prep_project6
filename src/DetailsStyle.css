@@ -78,8 +78,11 @@ overflow: hidden;
 .carddetails{
     /* display: flex; */
     /* flex-wrap: row wrap; */
+    box-shadow: 0 0 20px 4px lightslategray;
+    border-radius: 15px;
     border: 1px solid gray;
     margin: 18px;
+    padding: 0.5em;
 }
 .fblogo{
     width: 80px;
@@ -171,8 +174,10 @@ overflow: hidden;
             /* display: flex; */
             /* flex-wrap: row wrap; */
             border: 1px solid gray;
+            border-radius: 10px;
             /* width: 50%; */
             margin: 18px;
+            box-shadow: 0 0 10px 2px lightslategray;
         }
         #more{
             margin-left: 20px;

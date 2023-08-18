@@ -11,6 +11,9 @@ import Footer from "./Footer"
 function Details() {
      const [ContextData]=useContext(Store);
     const params=useParams();
+    var x = Math.floor((Math.random() * 10) + 10);
+    console.log("holle")
+    console.log(x)
     // const IndexValue=useLocation().state.Data;
     // console.log(IndexValue)
     console.log(params.id)
@@ -63,16 +66,21 @@ function Details() {
                <div>
                 <h1 id='more'>More From The Siren</h1><br/>
                 <div className='detailsparent'>
-                {ContextData.filter((item)=>(item.id%16===0)).map((item,index)=>{
+                {ContextData.filter((item)=>(item.id%x===0)).map((item,index)=>{
         console.log(item.id)
         return(
           <div className='carddetails'>
             <div className='card3'>
             
-            <Link to={'/:page/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+            <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><img src={item.image} alt="Not found"  state={{Data:index}} className='img'/></Link>
             <div className='title'>
+            <Link to={'/:page/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}>
             <h3 key={index} >{item.heading}</h3>
-            <p>{item.description}</p></div>
+            <p>{item.description}</p></Link></div>
             
             </div>
             <div className='detailinner'>

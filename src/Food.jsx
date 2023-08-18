@@ -36,8 +36,12 @@ return (
          
           <div >
           
-          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} id='topimg'/></Link>
-          <p key={index} className='topheading'>{item.heading}</p>
+          <Link to={'/food/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} id='topimg4'/>
+          <p key={index} className='topheading'>{item.heading}</p></Link>
           </div>
         
          
@@ -51,10 +55,15 @@ return (
         <>
           <div className='card'>
           
-          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/food/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
           <div className='title'>
+          <Link to={'/food/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}>
           <h3 key={index} >{item.heading}</h3>
-          <p>{item.description}</p></div>
+          <p>{item.description}</p></Link></div>
           
           </div><hr /></>
           // </div>
@@ -74,10 +83,15 @@ return (
         <>
           <div className='card1'>
           
-          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/food/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
           <div className='title1'>
+          <Link to={'/food/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}>
           <h3 key={index} >{item.heading}</h3>
-          <p>{item.description}</p></div>
+          <p>{item.description}</p></Link></div>
           
           </div><hr /></>
           // </div>
@@ -89,18 +103,23 @@ return (
         <video src='https://cdn.taboola.com/libtrc/static/video/v1691676846/xt6q22rswbtj62zfsmqt.mp4' height="100%" width="100%"></video>
       </div>
       <div>
-      <h1 className='mostpopular'>Most Popular</h1>
-      {ContextData.filter((item)=>(item.cat==="Food"&& item.id%5===0)).map((item,index)=>{
+      <h1 className='mostpopular'>Most Popular</h1><br/>
+      {ContextData.filter((item)=>(item.cat==="Food"&& item.id%4===0)).map((item,index)=>{
       console.log(item.id)
       return(
 
         <>
           <div className='card1'>
           
-          <Link to={'/food/'+item.id}><img src={item.image} alt="Not found" state={{Data:index}} className='img'/></Link>
+          <Link to={'/food/'+item.id} className='active1'><img src={item.image} alt="Not found" state={{Data:index}} onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }} className='img'/></Link>
           <div className='title1'>
+          <Link to={'/food/'+item.id} className='active1' onClick={() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }}>
           <h3 key={index} >{item.heading}</h3>
-          <p>{item.description}</p></div>
+          <p>{item.description}</p></Link></div>
           <div className='count'>
             {++count}
           </div>
@@ -117,11 +136,11 @@ return (
       </div>
       <div className='addvatisement'>
         <br/>
-        <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="80%"/>
+        <img src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/water-sale-ad-design-template-c74caf0a1782ac911ba6726d4159c1e8_screen.jpg?ts=1650992579' alt='not found' height="900vh" width="100%"/>
       </div>
       <div className='addvatisement'>
         <br/>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400vh" width="95%"/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400vh" width="100%"/>
       </div>
       
   </div>
