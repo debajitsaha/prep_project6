@@ -66,12 +66,16 @@ margin-left: 70px;
   height: 20em
 }
 .bolly{
-  text-decoration: underline;
+   text-decoration: underline orangered; 
   width: 100%;
   font-size: 30px;
-  display: block;
+  display: block; 
   margin-left: 100px;
+  margin-left: 20%;
+    
+
 }
+
 .first_container{
   width: 68%;
 display: block;
@@ -232,7 +236,7 @@ h1{
  }
  .fullimg1{
   width: 88%;
-  height: 400px;
+  height: 450px;
   /* border: 2px solid black; */
   margin-left: 70px;
   }
@@ -431,6 +435,7 @@ h1{
     font-size: 26px;
     display: block;
     margin-left: 20%;
+    
   }
   #fbfooter1{
     height:"50px";

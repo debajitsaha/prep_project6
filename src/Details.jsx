@@ -11,7 +11,7 @@ import Footer from "./Footer"
 function Details() {
      const [ContextData]=useContext(Store);
     const params=useParams();
-    var x = Math.floor((Math.random() * 10) + 10);
+    var x = Math.floor((Math.random() * 10) + 27);
     console.log("holle")
     console.log(x)
     // const IndexValue=useLocation().state.Data;
@@ -64,9 +64,9 @@ function Details() {
             </div>
             <div className='details2'>
                <div>
-                <h1 id='more'>More From The Siren</h1><br/>
+                <p id='more'>More From The Siren</p><br/>
                 <div className='detailsparent'>
-                {ContextData.filter((item)=>(item.id%x===0)).map((item,index)=>{
+                {ContextData.filter((item)=>(item.id%x===3)).map((item,index)=>{
         console.log(item.id)
         return(
           <div className='carddetails'>

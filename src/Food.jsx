@@ -140,7 +140,7 @@ return (
       </div>
       <div className='addvatisement'>
         <br/>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400vh" width="100%"/>
+        {/* <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjvdhKL2rQYh139ahgqB-YVQ9uOS5e1AUJA&usqp=CAU' alt='not found' height="400vh" width="100%"/> */}
       </div>
       
   </div>

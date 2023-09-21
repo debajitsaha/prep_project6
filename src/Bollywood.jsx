@@ -12,7 +12,7 @@ function Bollywood() {
 
   return (
     <>
-    <div className='main-container'>
+    <div className='main-container'> 
       <div className='add'>
       <div className='add2'>
       <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVuQYfSVn1DiKMG_SKoRuypuT87crjy3rKlg&usqp=CAU' alt='not found' width="100px"/>
